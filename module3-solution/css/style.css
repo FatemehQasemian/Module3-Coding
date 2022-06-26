@@ -30,16 +30,25 @@ body {
 /* END HEADER */
 
 
-/* FOOTER */
-
-
-/* END FOOTER */
-
-
 /* HOME PAGE */
 
 #main-content h2 {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-item-description {
+    background-color: #C1C8D9;
+}
+
+.menu-item-description h3 {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item-description .menu-item-details {
+    padding: 0 20px;
 }
 
 
