@@ -22,7 +22,8 @@ body {
     text-align: center;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav li a:hover,
+.navbar-nav li a:active {
     background-color: #CACFD6;
 }
 
