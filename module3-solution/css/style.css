@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* color: #fff;
+    background-color: #61122f; */
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/**HEADER**/
+
+.navbar-brand h1 {
+    font-weight: bold;
+}
+
+.navbar-nav li {
+    text-align: center;
+}
+
+.navbar-nav li a:hover {
+    background-color: #CACFD6;
+}
+
+
+/* END HEADER */
+
+
+/* FOOTER */
+
+
+/* END FOOTER */
+
+
+/* HOME PAGE */
+
+#main-content h2 {
+    text-align: center;
+}
+
+
+/* END HOME PAGE */
+
+
+/********** Medium devices only = Desktop **********/
+
+@media (min-width: 768px) {
+    /* Header */
+    /* End Header */
+    /* Home Page */
+    /* End Home Page */
+}
+
+
+/********** Small devices only = Tablet **********/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* Header */
+    /* End Header */
+    /* Home Page */
+    /* End Home Page */
+}
+
+
+/********** Extra small devices only = Mobile **********/
+
+@media (max-width: 576px) {
+    /* Header */
+    /* End Header */
+    /* Footer */
+    /* End Footer */
+    /* Home page */
+    /* END HOME PAGE */
+}
